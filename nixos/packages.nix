@@ -14,8 +14,6 @@ with pkgs;
     htop
     pciutils
     fastfetch
-    #modifications/theming
-    caffeine-ng #no sleep option in status bar
-    gnome-tweaks
+    cmus #console music player
   ]
 
