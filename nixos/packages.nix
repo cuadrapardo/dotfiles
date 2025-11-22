@@ -7,7 +7,6 @@ with pkgs;
     vim-full
     # communication
     discord
-    notion-app
     # utils
     tree
     git
