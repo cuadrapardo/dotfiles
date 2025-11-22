@@ -24,9 +24,7 @@
   boot.kernelParams = [ "nvidia-drm.modeset=1" ];
   
   
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
+ 
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
