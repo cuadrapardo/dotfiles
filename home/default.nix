@@ -12,6 +12,9 @@
 
   home.packages = with pkgs; [
     fzf
+    zotero
+    gnomeExtensions.just-perfection
+    gnomeExtensions.cronomix
   ];
 
   # Home Manager needs this
