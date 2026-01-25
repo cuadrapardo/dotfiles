@@ -17,5 +17,6 @@ with pkgs;
     cmus #console music player
     cups #standards-based printing system for UNIX
     texliveFull
+    zathura
   ]
 
