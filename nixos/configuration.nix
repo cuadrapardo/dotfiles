@@ -16,6 +16,15 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.initrd.availableKernelModules = [
+   "nvme"
+   "ext4"
+   "xhci_pci"
+   "ahci"
+   "sd_mod"
+   "usb_storage"
+  ];
   
   # Nouveau is a set of free and open-source drivers for NVIDIA GPUs that provide 2D/3D acceleration for all NVIDIA GPUs. Its use is in general not recommended due to its considerably worse performance compared to NVIDIA's kernel modules
   #boot.kernelParams = ["nouveau.modeset=0"];
